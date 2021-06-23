@@ -8,7 +8,7 @@ for i in range(filas):
     
 for i in range(filas):
     for j in range(columnas):
-        matriz[i][j]= round(random.uniform(0,100),2)
+        matriz[i][j]= round(random.uniform(1,100),2)
     
 for i in range(filas):
     for j in range(columnas):
