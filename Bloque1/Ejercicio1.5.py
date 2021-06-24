@@ -18,4 +18,4 @@ normalizado=np.array(normal)
 print(numeros,normalizado)
 selecval=normalizado[np.where((normalizado <= 1) & (normalizado >= -1))]
 estructura=[numeros,caracter]
-print(selecval)
+print(sorted(selecval))
