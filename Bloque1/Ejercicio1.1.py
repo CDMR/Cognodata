@@ -1,7 +1,7 @@
 import random
 matriz=[]
-filas = int(input("Introduce numero de filas: "))
-columnas= int(input("Introduce numero de columnas: "))   
+filas = 10#int(input("Introduce numero de filas: "))
+columnas= 7#int(input("Introduce numero de columnas: "))   
 for i in range(filas):
     for j in range(columnas):
         matriz.append([0]*columnas)
